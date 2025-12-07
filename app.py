@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="さだまさし歌詞検索アプリ", layout="wide")
+st.set_page_config(page_title="さだまさし歌詩検索アプリ", layout="wide")
 
 # --- 🔐 パスワード認証機能 ---
 def check_password():
