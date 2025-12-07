@@ -34,7 +34,7 @@ def check_password():
 if check_password():
     # --- 認証成功後に表示されるメインアプリ ---
     
-    st.title("👓さだまさし歌詞フレーズ検索アプリ")
+    st.title("👓さだまさし歌詩検索アプリ")
 
     # データ読み込み
     try:
