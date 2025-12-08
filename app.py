@@ -53,7 +53,7 @@ if check_password():
             df = df[df['Album'] == selected_album]
 
     # メイン検索バー
-    query = st.text_input("歌詞のフレーズを入力してください", "")
+    query = st.text_input("歌詩のフレーズを入力してください", "")
 
     # 検索結果の表示
     if query:
